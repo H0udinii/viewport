@@ -122,7 +122,11 @@ img{
     -webkit-animation: icon-animation 1s ease-in-out infinite;
             animation: icon-animation 1s ease-in-out infinite;
     overflow: visible;
+    font-variation-settings: "TIME" 100;
 }
+
+    
+
 
 footer .icon{
     font-size: 1em;
@@ -314,28 +318,10 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 600px){
      img{
         width: 300px;
         max-width: 300px;
-    } 
-}
-@media only screen and (max-width: 600px){
-     img{
-        width: 600px;
-        max-width: 600px;
-    } 
-}
-@media only screen and (max-width: 768px){
-     img{
-        width: 768px;
-        max-width: 768px;
-    } 
-}
-@media only screen and (max-width: 992px){
-     img{
-        width: 992px;
-        max-width: 992px;
     } 
 }
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
